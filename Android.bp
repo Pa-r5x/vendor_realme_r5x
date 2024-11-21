@@ -236,12 +236,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "audiosphere",
-	owner: "realme",
-	jars: ["proprietary/framework/audiosphere.jar"],
-}
-
-dex_import {
 	name: "tcmclient",
 	owner: "realme",
 	jars: ["proprietary/system/framework/tcmclient.jar"],
