@@ -382,20 +382,15 @@ PRODUCT_PACKAGES += \
     camera.trinket \
     vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl \
     imx386_PdafLibrary \
-    libAlacSwDec \
-    libApeSwDec \
     libDxHdcp \
     libFileMux_proprietary \
-    libFlacSwDec \
     libOPPORectify \
     libOccluDetect \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrDec \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxDsdDec \
     libOmxEvrcDec \
     libOmxG711Dec \
@@ -1822,7 +1817,6 @@ PRODUCT_PACKAGES += \
     libdepthmap \
     libdepthmapwrapper \
     libdrc \
-    libdsd2pcm \
     libflash_pmic \
     libgcs-calwrapper \
     libgcs-ipc \
@@ -2043,9 +2037,11 @@ PRODUCT_PACKAGES += \
     libsurround_3mic_proc \
     libswresample \
     libswscale \
+    libswvdec \
     libsymphony-cpu \
     libsymphonypower \
     libthread_blur \
+    libvideoutils \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
@@ -2257,6 +2253,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
+    vendor.qti.hardware.vpp@1.1 \
+    vendor.qti.hardware.vpp@1.2 \
+    vendor.qti.hardware.vpp@1.3 \
     vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.rcsconfig@1.0_vendor \
     vendor.qti.ims.rcsconfig@1.1_vendor \
