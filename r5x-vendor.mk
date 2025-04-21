@@ -2393,6 +2393,7 @@ PRODUCT_PACKAGES += \
     adsprpcd \
     cdsprpcd \
     cnd \
+    cnss-daemon_r5x \
     dpmQmiMgr \
     dspservice \
     garden_app \
