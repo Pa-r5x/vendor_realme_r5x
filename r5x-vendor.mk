@@ -86,6 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/realme/r5x/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
@@ -98,23 +100,30 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/etc/init/init-qcril-data.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init-qcril-data.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.adsprpc-sscrpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-sscrpc-service.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
+    vendor/realme/r5x/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/realme/r5x/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/realme/r5x/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ili9881h_hdp_video_truly_auo_panel.xml \
     vendor/realme/r5x/proprietary/vendor/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36525b_hdp_video_hlt_boe_panel.xml \
     vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
     vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
+    vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/realme/r5x/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/realme/r5x/proprietary/vendor/etc/sensors/config/alsps.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/alsps.json \
     vendor/realme/r5x/proprietary/vendor/etc/sensors/config/bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi160_0.json \
@@ -378,10 +387,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     libOppoAPSMemMgr \
     libOppoAlgoClient \
+    libQSEEComAPI \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadsp_default_listener \
+    libadsprpc \
     libalgo.public \
     libalipay_factory \
     libarcsoft_hdr_denoise_api \
@@ -397,10 +409,17 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libbtnv \
+    libcdsp_default_listener \
+    libcdsprpc \
+    libdiag \
     libdsutils \
+    libfastcvdsp_stub \
+    libfastcvopt \
     libhypnusclient \
     libidl \
     libmdmdetect \
+    libmdsprpc \
+    libminkdescriptor \
     libmmcamera2_frame_algorithm \
     libmmcamera2_is \
     libmmcamera2_q3a_core \
@@ -415,6 +434,7 @@ PRODUCT_PACKAGES += \
     libnative-api \
     liboppo_log_print \
     liboppoalgolib \
+    libqcbor \
     libqcci_legacy \
     libqdi \
     libqdp \
@@ -430,17 +450,18 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqtigef \
     librpmbengclient \
-    libsensorcal_r5x \
-    libsensorslog_r5x \
-    libsns_device_mode_stub_r5x \
-    libsns_fastRPC_util_r5x \
-    libsns_low_lat_stream_stub_r5x \
+    libsdsprpc \
+    libsensorcal \
+    libsensorslog \
+    libsns_device_mode_stub \
+    libsns_fastRPC_util \
+    libsns_low_lat_stream_stub \
     libsnsapi \
-    libsnsdiaglog_r5x \
+    libsnsdiaglog \
     libsoc_helper \
     libsoc_helper_jni \
-    libssc_r5x \
-    libssc_default_listener_r5x \
+    libssc \
+    libssc_default_listener \
     libthermalclient \
     sensors.ssc \
     libasphere \
@@ -449,6 +470,7 @@ PRODUCT_PACKAGES += \
     vendor.oppo.hardware.hypnus@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
+    vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0_vendor \
     vendor.qti.hardware.sensorscalibrate@1.0 \
@@ -1619,6 +1641,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.1_vendor \
     com.qualcomm.qti.uceservice@2.2_vendor \
     com.qualcomm.qti.uceservice@2.3_vendor \
+    android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     libets_teeclient_v2 \
     vendor.qti.gnss@4.3-impl \
@@ -1636,11 +1659,14 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
+    libGPreqcancel \
+    libGPreqcancel_svc \
     libOmxVpp \
     libRbsFlow \
     libSecureUILib \
     libStDrvInt \
     libaoa \
+    libbase64 \
     libbt-hidlclient \
     libcacertclient \
     libcdfw \
@@ -1650,10 +1676,13 @@ PRODUCT_PACKAGES += \
     libcneoplookup \
     libcneqmiutils \
     libconfigdb \
+    libcpion \
     libdataitems \
     libdisp-aba \
     libdpmqmihal \
     libdpps \
+    libdrmfs \
+    libdrmtime \
     libdsi_netctrl \
     libgarden \
     libgarden_haltests_e2e \
@@ -1662,6 +1691,9 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     libjnihelper \
+    libkeymasterdeviceutils \
+    libkeymasterprovision \
+    libkeymasterutils \
     liblbs_core \
     libloc_api_v02 \
     libloc_api_wds \
@@ -1673,11 +1705,13 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
+    libminksocket \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
+    libops \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
@@ -1686,7 +1720,9 @@ PRODUCT_PACKAGES += \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
+    libqisl \
     libqsocket \
+    libqtikeymaster4 \
     librcc \
     libril-qc-hal-qmi \
     libril-qc-logger \
@@ -1695,6 +1731,7 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librmp \
+    librpmb \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -1707,8 +1744,11 @@ PRODUCT_PACKAGES += \
     libsi \
     libslimclient \
     libspl \
+    libssd \
     libsubsystem_control \
     libsystem_health_mon \
+    libtime_genoff \
+    libtrustedapploader \
     libvppclient \
     libvpphvx \
     libvpplibrary \
@@ -1827,14 +1867,20 @@ PRODUCT_PACKAGES += \
     IWlanService \
     TimeService \
     audiosphere \
+    android.hardware.keymaster@4.1-service-default-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
     vendor.qti.gnss@4.3-service.xml \
     adpl \
+    adsprpcd \
+    cdsprpcd \
     cnd \
     dpmQmiMgr \
+    dspservice \
     garden_app \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.3-service.widevine \
+    android.hardware.gatekeeper@1.0-service-qti \
+    android.hardware.keymaster@4.1-service-qti \
     qcrild \
     vendor.oppo.hardware.biometrics.fingerprint@2.1-service \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service \
@@ -1845,6 +1891,7 @@ PRODUCT_PACKAGES += \
     imsdatadaemon \
     imsqmidaemon \
     imsrcsd \
+    init.qcom.sensors \
     init.qti.qcv \
     irsc_util \
     loc_launcher \
@@ -1859,9 +1906,10 @@ PRODUCT_PACKAGES += \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
+    qseecomd \
     qti \
     rmt_storage \
-    sensors.qti_r5x \
+    sensors.qti \
     slim_daemon \
     tftp_server \
     thermal-engine \
