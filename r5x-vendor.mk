@@ -375,10 +375,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
+    btaudio_offload_if \
     com.qualcomm.qti.dpm.api@1.0_vendor \
     android.hardware.bluetooth@1.0-impl-qti \
+    audio.bluetooth_qti.default \
     audio.primary.trinket \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
@@ -406,6 +410,8 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libbase64 \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libbtnv \
     libcdsp_default_listener \
     libcdsprpc \
@@ -1660,6 +1666,7 @@ PRODUCT_PACKAGES += \
     libSecureUILib \
     libStDrvInt \
     libaoa \
+    libbt-hidlclient \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
